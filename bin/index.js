@@ -5,9 +5,9 @@
 const minimist = require('minimist');
 const throttler = require('../lib/');
 const packageInfo = require('../package');
-const defaultUp = 330;
-const defaultDown = 780;
-const defaultRtt = 200;
+const defaultUp = 512;
+const defaultDown = 1024;
+const defaultRtt = 75;
 
 const profiles = {
   '3g': {
